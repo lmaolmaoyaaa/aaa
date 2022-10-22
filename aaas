@@ -25,25 +25,14 @@ Frame.Draggable = true
 Frame.Active = true
 Frame.Selectable = true
 local Plr = game.Players.LocalPlayer
- 
-player = game.Players.LocalPlayer
 
-player:GetMouse().KeyDown:Connect(function(key)
-	if key == "e" and script.Parent.Visible == false then
-		Frame.Visible = false
-	else
-		if key == "e" and script.Parent.Visible == true then
-			Frame.Visible = true
-		end
-	end
-end)
 
 TITLE.Name = "TITLE"
 TITLE.Parent = Frame
 TITLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TITLE.Size = UDim2.new(0, 472, 0, 53)
 TITLE.Font = Enum.Font.SourceSans
-TITLE.Text = "ROBLOX LONGEST AWNSER WINS  - THE SCRIPT (Press P to Open / Close GUI)"
+TITLE.Text = "ROBLOX LONGEST AWNSER WINS  - THE SCRIPT"
 TITLE.TextColor3 = Color3.fromRGB(0, 0, 0)
 TITLE.TextScaled = true
 TITLE.TextSize = 14.000
